@@ -22,6 +22,13 @@ FriendFinder
 - installation of the packages:
     - express
     - body-parser
+    
+    
+    
+    
+    screen recording of the App:
+    [Friend Finder App](https://github.com/na995909/Friend-Finder/blob/master/Friend%20Finder%20App.mov?raw=true)
+
    
 
 
