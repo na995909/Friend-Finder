@@ -9,11 +9,11 @@ module.exports = function (app) {
 	});
 	//API POST Requests
 	//user submits the form, handles incoming survey results
-	app.post('api/friends', function(req, res) {
+	app.post('/api/friends', function(req, res) {
 		var match = {
 			name: "",
 			photo: "",
-			friendDifference:100
+			friendDifference:1000
 
 		};
 		//results of the user survey
@@ -25,19 +25,17 @@ module.exports = function (app) {
 	    var totalDifference = 0;
 	    //looping through all th friends in the array
 	    for (var i = 0; i < friends.length; i++) {
-	    	console.log(friends[i].name);
             totalDifference = 0 ;
             //then looping through the scores of each friend
 
             for (var j = 0; j < friends[i].scores[j]; j++) {
-			totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(friends[i].scores[j]));
+				totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(friends[i].scores[j]));
+            }
             if (totalDifference <= match.friendDifference){
             	//Reset the match to be the new friend
             	match.name = friends[i].name;
             	match.photo = friends[i].photo;
             	match.friendDifference = totalDifference;
-
-            }
 
             }
 	    }

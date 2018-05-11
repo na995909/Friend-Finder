@@ -3,7 +3,7 @@
 var friends = [
 {
 	"name": "Tania",
-	"photo": "hhttps://www.vanseodesign.com/blog/wp-content/uploads/2010/03/model.jpg",
+	"photo": "https://www.myherodesign.com/wp-content/uploads/2016/06/Hispanic_Female_Suspicious-1.gif",
 	"scores":[
 	5,
 	1,
@@ -16,9 +16,10 @@ var friends = [
 	4,
 	1
    ]
-    
+ },
+ {   
     "name": "Katia",
-    "photo": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "photo": "https://i.pinimg.com/originals/80/91/83/80918382c5aa728cdc7401dfbe3f97c4.gif",
     "scores":[
     3,
     2,
@@ -31,24 +32,27 @@ var friends = [
     2,
     1
    ]
-
+},
+{
 
     "name": "Jackie",
-    "photo": "http://i.dailymail.co.uk/i/pix/2014/02/11/article-2557079-1B65997A00000578-186_306x423.jpg",
+    "photo": "https://drawingbingo.com/wp-content/uploads/2017/11/simple-pencil-sketches-of-animated-faces-simple-pencil-sketches-of-animated-faces-easy-pencil-drawings-of.jpg",
     "scores":[
     5,
     5,
-    3,
     2,
     2,
-    3,
-    3,
+    2,
     1,
-    5,
+    1,
+    1,
+    2,
     1
-  
+  ]
+},
+{
     "name": "Jackie",
-    "photo": "http://i.dailymail.co.uk/i/pix/2014/02/11/article-2557079-1B65997A00000578-186_306x423.jpg",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbhtXxx_jwlRiierPxmD0Ez_gtektYEpgWATJRAYwS4-inxHsXcQ",
     "scores":[
     5,
     5,
@@ -61,9 +65,10 @@ var friends = [
     5,
     1
    ]
-
+},
+{
     "name": "John",
-    "photo": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "photo": "https://www.wikihow.com/images/thumb/2/24/Draw-Human-Faces-Step-9.jpg/aid48750-v4-728px-Draw-Human-Faces-Step-9.jpg",
     "scores":[
     4,
     3,
@@ -76,9 +81,10 @@ var friends = [
     2,
     1
    ]
-
+},
+{
     "name": "Mike",
-    "photo": "http://d2ck0sxsjau14o.cloudfront.net/wp-content/uploads/2018/01/black-african-man.jpg",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR16-2hRavvt_yFnNexBlLZp7c_3yQAfoUhcnnPS-JTp6hmanww",
     "scores":[
     2,
     3,
@@ -91,7 +97,7 @@ var friends = [
     3,
     2
    ]
-
 }
+]
 
-module.exports = friendData;
+module.exports = friends;
